@@ -4,7 +4,7 @@ Threat IOC Analyzer
 Kit de herramientas forenses para el ciclo de vida de Indicadores de Compromiso (IOCs):
 Desofuscación, Normalización, Clasificación, Resolución DNS y Enriquecimiento RDAP.
 
-Autores originales (PEC 2): Cristian, Jaime, Izan.
+Autor: Cristian García (@Cristiangarcia913)
 Versión: 1.0.0
 """
 
@@ -22,7 +22,7 @@ from .core import (
 )
 
 __version__ = "1.0.0"
-__author__ = "Cristian, Jaime, Izan"
+__author__ = "Cristian García"
 
 __all__ = [
     "deobfuscate",

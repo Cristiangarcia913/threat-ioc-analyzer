@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "threat-ioc-analyzer"
 version = "1.0.0"
 authors = [
-  { name = "Cristian, Jaime, Izan" }
+  { name = "Cristian García", email = "cristiangarciadelolmo06@gmail.com" }
 ]
 description = "Automated Threat Intelligence & Forensic Tool for IOC Deobfuscation, Normalization, Classification, DNS Enrichment and RDAP Analysis."
 readme = "README.md"

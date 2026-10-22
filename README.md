@@ -7,9 +7,9 @@
 [![CI Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
 [![DFIR Category](https://img.shields.io/badge/category-DFIR%20%26%20CTI-red.svg)]()
 
-**Threat IOC Analyzer** es un kit de herramientas forenses de nivel profesional diseñado para procesar, homologar, resolver y enriquecer **Indicadores de Compromiso (IOCs)** en tareas de Respuesta a Incidentes (DFIR) y Ciberinteligencia de Amenazas (CTI).
+**Threat IOC Analyzer** es un kit de herramientas forenses de nivel profesional diseñado y desarrollado por **Cristian García** ([@Cristiangarcia913](https://github.com/Cristiangarcia913)) para procesar, homologar, resolver y enriquecer **Indicadores de Compromiso (IOCs)** en tareas de Respuesta a Incidentes (DFIR) y Ciberinteligencia de Amenazas (CTI).
 
-Desarrollado a partir de la investigación práctica de la **PEC 2** por **Cristian, Jaime e Izan**, el proyecto ha sido evolucionado a un paquete modular de Python con interfaz CLI, suite de pruebas unitarias y cuaderno interactivo para Google Colab y Jupyter Lab.
+Construido como un paquete modular de Python con interfaz CLI, suite de pruebas unitarias y cuaderno interactivo para Google Colab y Jupyter Lab.
 
 ---
 
@@ -26,7 +26,7 @@ Desarrollado a partir de la investigación práctica de la **PEC 2** por **Crist
 - [Formatos de Exportación](#-formatos-de-exportación)
 - [Caso de Estudio: Muestra Botnet Mirai](#-caso-de-estudio-muestra-botnet-mirai)
 - [Tests y Calidad de Código](#-tests-y-calidad-de-código)
-- [Autores y Agradecimientos](#-autores-y-agradecimientos)
+- [Autor](#-autor)
 - [Licencia](#-licencia)
 
 ---
@@ -190,7 +190,7 @@ Abre directamente el cuaderno [notebooks/Threat_IOC_Analyzer.ipynb](notebooks/Th
 
 ## 🕵️ Caso de Estudio: Muestra Botnet Mirai
 
-En la carpeta [`examples/mirai_botnet_iocs.txt`](examples/mirai_botnet_iocs.txt) se incluye la muestra real de indicadores analizada en la **PEC 2**, compuesta por:
+En la carpeta [`examples/mirai_botnet_iocs.txt`](examples/mirai_botnet_iocs.txt) se incluye una muestra real de indicadores de la botnet Mirai, compuesta por:
 - URLs de descarga de binarios MIPS / ARM (`mirai.m68k`, `mirai.arm4`).
 - Dominios C2 (`rebirthbot.icu`, `miraicnc.ddns.net`).
 - Direcciones IP con puertos de escaneo Telnet/C2 (`196.251.80.5:3778`).
@@ -236,13 +236,9 @@ Ran 18 tests in 0.009s - OK
 
 ---
 
-## 👥 Autores y Agradecimientos
+## 👤 Autor
 
 - **Cristian García** ([@Cristiangarcia913](https://github.com/Cristiangarcia913))
-- **Jaime**
-- **Izan**
-
-*Proyecto desarrollado originalmente en el marco de la Prueba de Evaluación Continua (PEC 2) de Análisis Forense y Ciberseguridad.*
 
 ---
 
