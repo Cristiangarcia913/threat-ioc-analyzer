@@ -1,0 +1,9 @@
+# Indicadores de Compromiso mixtos (CTI & DFIR)
+hxxps://malware-distribution-node[.]net/payload[.]exe
+http://198.51.100.23:8443/c2/connect
+evil-command-control[.]org
+185[.]220[.]101[.]5
+[2001:db8::dead:beef]:8080
+phishing-campaign[@]secure-bank-login[.]com
+d41d8cd98f00b204e9800998ecf8427e
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

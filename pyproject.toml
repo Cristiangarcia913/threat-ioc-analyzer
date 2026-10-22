@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threat-ioc-analyzer"
+version = "1.0.0"
+authors = [
+  { name = "Cristian, Jaime, Izan" }
+]
+description = "Automated Threat Intelligence & Forensic Tool for IOC Deobfuscation, Normalization, Classification, DNS Enrichment and RDAP Analysis."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Intended Audience :: Information Technology",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+notebook = [
+    "ipywidgets>=8.0.0",
+    "IPython>=8.0.0",
+]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+threat-ioc = "ioc_analyzer.cli:main"
+ioc-analyzer = "ioc_analyzer.cli:main"
